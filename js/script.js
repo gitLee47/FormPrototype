@@ -75,6 +75,7 @@ function buildPositions(questions){
             a: Math.round(scrollPointItem)
         };
         positions.push(position);
+        $(this).attr("index", index);
     })
 }
 
